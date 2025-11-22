@@ -16,12 +16,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Instala o Java (17 é o padrão do Spring Boot 3)
+      # 2. Instala o Java
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '25'
           cache: 'maven'
 
       # 3. Roda build e testes
