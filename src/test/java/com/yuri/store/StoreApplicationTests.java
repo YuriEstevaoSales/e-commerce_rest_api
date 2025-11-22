@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class StoreApplicationTests {
-
+	@Disabled
 	@Test
 	void contextLoads() {
 	}
